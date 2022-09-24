@@ -1,6 +1,6 @@
 ###### Python ETL
 Using python to extract data from a source database:mysql,  perfrom transformations on the data and then load the data  to a target analytical database :postgresql. 
-The etl job is the run using windows task scheduler evry 5 minutes.
+The etl job is the run using windows task scheduler every 5 minutes.
 
 ###### data
 The source database contains a classicmodels db which is a database for a car retail company.
