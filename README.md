@@ -5,9 +5,9 @@ The etl job is the run using windows task scheduler every 5 minutes.
 ###### data
 The source database contains a classicmodels db which is a database for a car retail company.
 From the database can report on the following.
--customers who made the most orders
--products that have the highest number of purchases
--customer who have spent more
+* customers who made the most orders
+* products that have the highest number of purchases
+* customers who have spent more
 
 this data is then extracted and transformed
 
