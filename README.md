@@ -10,6 +10,7 @@ From the database can report on the following.
 -customer who have spent more
 
 this data is then extracted and transformed
+
 ```
 # performing some transformations on the dataframes- joining columns for first name and last name
 df2['customername'] = df2['contactFirstName'].str.cat(df2['contactLastName'],sep=" ")
@@ -33,7 +34,7 @@ Creating a task in windows task scheduler.
 ```start->task scheduler->create a folder (mytask)->create task (python_etl)->trigger(repeat after 5 mins)->action(start program-schedule_python_etl.bat)```
 
 ###### Usage
--install mysql and postgresql databases
--populate the source database using the ```mysqlsampledatabase.sql``` file
--clone the repository
--install the requirements, activate venv and run the script
+* install mysql and postgresql databases
+* populate the source database using the ```mysqlsampledatabase.sql``` file
+* clone the repository
+-. install the requirements, activate venv and run the script
